@@ -40,3 +40,32 @@ With the increasing reliance on data-driven decision-making, understanding datab
 - **Foreign Key:** A foreign key is a column or a set of columns in a table that is used to establish a link between the data in two different tables. The foreign key in one table refers to the primary key in another table, creating a relationship between the tables. This relationship enforces referential integrity, ensuring that data in the related tables remains consistent.
 
 In the context of relational databases, primary keys are used to uniquely identify records within a table, while foreign keys establish relationships between tables, allowing data to be linked and related across different parts of a database schema.
+
+## Common SQL Data Types
+
+| Data Type                | Description                                                                                           |
+|--------------------------|-------------------------------------------------------------------------------------------------------|
+| INTEGER / INT            | Represents whole numbers (positive, negative, or zero) without decimal points.                     |
+| SMALLINT                 | Similar to INTEGER, but with a smaller range of values.                                             |
+| BIGINT                   | Used for larger whole numbers with a wider range.                                                  |
+| NUMERIC / DECIMAL        | Stores numbers with decimal points. The precision and scale can be specified.                        |
+| FLOAT / REAL             | Represents floating-point numbers (numbers with decimal points) with approximate precision.          |
+| DOUBLE PRECISION         | Provides higher precision for floating-point numbers compared to FLOAT/REAL.                        |
+| CHAR / CHARACTER         | Stores fixed-length character strings. Padded with spaces if the length is less than specified.     |
+| VARCHAR / CHARACTER VARYING | Stores variable-length character strings. Uses only needed space.                                   |
+| TEXT                     | Stores variable-length character strings for larger amounts of text.                                 |
+| DATE                     | Represents a date (year, month, and day).                                                            |
+| TIME                     | Represents a time of day.                                                                            |
+| TIMESTAMP / DATETIME     | Represents both date and time, including fractional seconds.                                        |
+| BOOLEAN                  | Represents true or false values.                                                                     |
+| BINARY                   | Stores binary data like images or files.                                                            |
+| VARBINARY                | Stores variable-length binary data.                                                                  |
+| BLOB (Binary Large Object) | Stores large binary data.                                                                         |
+| CLOB (Character Large Object) | Stores large text data.                                                                          |
+| ENUM                     | Represents a set of predefined values.                                                              |
+| ARRAY                    | Represents an ordered collection of elements.                                                       |
+| JSON                     | Stores JSON (JavaScript Object Notation) data.                                                      |
+| UUID                     | Universally Unique Identifier, often used as a unique identifier.                                    |
+| XML                      | Stores XML data.                                                                                     |
+
+These data types can vary in their specific names and features depending on the database system you're using. It's important to refer to your specific database's documentation for precise information about data types, their storage sizes, and any additional attributes they may have.
