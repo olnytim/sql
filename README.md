@@ -4,7 +4,6 @@ Databases form the backbone of modern data management, providing a structured wa
 
 With the increasing reliance on data-driven decision-making, understanding databases and SQL opens up a world of opportunities. From business operations to scientific research, the ability to manipulate and extract insights from data can give you a competitive edge. So, let's delve into the fundamental SQL commands and concepts that empower you to harness the potential of databases! 🚀📚
 
-
 | Command | Explanation |
 |---------|-------------|
 | `\l` | Lists all databases in the PostgreSQL server. |
